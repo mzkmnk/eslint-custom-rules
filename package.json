@@ -1,12 +1,15 @@
 {
-  "name": "eslint-custom-rules",
+  "name": "@mzkmnk-lab/eslint-custom-rules",
   "version": "1.0.0",
   "description": "",
   "main": "dist/index.js",
   "scripts": {
     "build": "tsc"
   },
-  "dependencies": {},
+  "dependencies": {
+    "@angular-eslint/test-utils": "^19.1.0",
+    "@typescript-eslint/utils": "^8.24.1"
+  },
   "devDependencies": {
     "typescript": "^5.5.3"
   },
