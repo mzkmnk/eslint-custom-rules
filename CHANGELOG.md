@@ -1,3 +1,10 @@
+# [1.2.0](https://github.com/mzkmnk/eslint-custom-rules/compare/v1.1.0...v1.2.0) (2025-02-23)
+
+
+### Features
+
+* update export syntax and add rules object ([#6](https://github.com/mzkmnk/eslint-custom-rules/issues/6)) ([26bbb52](https://github.com/mzkmnk/eslint-custom-rules/commit/26bbb52aad462d7edca6282a26decd11ba4deb2e))
+
 # [1.1.0](https://github.com/mzkmnk/eslint-custom-rules/compare/v1.0.0...v1.1.0) (2025-02-23)
 
 
