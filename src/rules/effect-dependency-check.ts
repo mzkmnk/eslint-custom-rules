@@ -1,12 +1,8 @@
 import {TSESLint} from "@typescript-eslint/utils";
 
-type Scheme = {
-  elements: string[];
-}
-
 /**
  * @description
- * このルールはangularのeffectが依存関係を明示させることを強制します。
+ * This rule enforces that dependencies within Angular Effects are declared explicitly.
  *
  * // NG
  * ```ts
@@ -28,15 +24,15 @@ type Scheme = {
  * }
  * ```
  */
-export const effectDependencyCheck: TSESLint.RuleModule<'effectDependencyCheck', [Scheme]> = {
+export const effectDependencyCheck: TSESLint.RuleModule<'effectDependencyCheck', []> = {
   meta: {
     messages: {
-      effectDependencyCheck: 'effect should not have a dependency on another effect',
+      effectDependencyCheck: 'Effect dependencies must be declared explicitly',
     },
     type: 'problem',
     schema: [],
   },
-  defaultOptions: [{elements: []}],
+  defaultOptions: [],
   create: (context) => {
     return {
       MethodDefinition(node) {
