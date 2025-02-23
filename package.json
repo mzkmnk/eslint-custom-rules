@@ -1,6 +1,6 @@
 {
   "name": "@mzkmnk-lab/eslint-custom-rules",
-  "version": "0.0.0",
+  "version": "1.0.0",
   "description": "eslint custom rules",
   "main": "dist/index.js",
   "scripts": {
