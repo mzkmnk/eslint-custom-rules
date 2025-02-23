@@ -1,5 +1,5 @@
 import {effectDependencyCheck} from './rules/effect-dependency-check';
 
 export const rules = {
-  effectDependencyCheck,
+  'effect-dependency-check': effectDependencyCheck,
 }
