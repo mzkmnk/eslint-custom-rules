@@ -5,15 +5,28 @@
   "main": "dist/index.js",
   "scripts": {
     "build": "tsc",
-    "test": "jest"
+    "test": "jest",
+    "release": "semantic-release"
+  },
+  "keywords": [
+    "angular",
+    "eslint",
+    "eslint-plugin"
+  ],
+  "author": "mzkmnk",
+  "publishConfig": {
+    "access": "public"
   },
   "devDependencies": {
     "@angular-eslint/template-parser": "^19.1.0",
     "@angular-eslint/test-utils": "^19.1.0",
-    "@typescript-eslint/utils": "^8.24.1",
+    "@semantic-release/changelog": "^6.0.3",
+    "@semantic-release/git": "^10.0.1",
     "@types/jest": "^29.5.14",
     "@typescript-eslint/parser": "^8.24.1",
+    "@typescript-eslint/utils": "^8.24.1",
     "jest": "^29.7.0",
+    "semantic-release": "^24.2.3",
     "ts-jest": "^29.2.5",
     "typescript": "^5.5.3"
   },
