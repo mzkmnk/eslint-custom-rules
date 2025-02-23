@@ -33,5 +33,5 @@
   "peerDependencies": {
     "eslint": "^9.21.0"
   },
-  "private": true
+  "private": false
 }
