@@ -39,7 +39,12 @@ ruleTester.run('effect-dependency-check', rule, {
         }
       `,
       filename: 'template.component.ts',
-      errors: [{messageId: 'effectDependencyCheck'}],
+      errors: [
+        {
+          messageId: 'effectDependencyCheck',
+          line: 5,
+          column: 13,
+        }],
     },
 
     {
@@ -58,7 +63,17 @@ ruleTester.run('effect-dependency-check', rule, {
         }
       `,
       filename: 'template.component.ts',
-      errors: [{messageId: 'effectDependencyCheck'}, {messageId: 'effectDependencyCheck'}],
+      errors: [
+        {
+          messageId: 'effectDependencyCheck',
+          line: 5,
+          column: 13,
+        },
+        {
+          messageId: 'effectDependencyCheck',
+          line: 9,
+          column: 13,
+        }],
     },
 
     {
@@ -80,7 +95,11 @@ ruleTester.run('effect-dependency-check', rule, {
         }
       `,
       filename: 'template.component.ts',
-      errors: [{messageId: 'effectDependencyCheck'}],
+      errors: [{
+        messageId: 'effectDependencyCheck',
+        line: 12,
+        column: 13,
+      }],
     },
   ],
 });

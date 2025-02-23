@@ -65,6 +65,8 @@ export const effectDependencyCheck: TSESLint.RuleModule<'effectDependencyCheck',
               return
             }
 
+            const errorNode = expression;
+
             expression.arguments.forEach(arg => {
               if (arg.type !== 'ArrowFunctionExpression') {
                 return
@@ -73,7 +75,7 @@ export const effectDependencyCheck: TSESLint.RuleModule<'effectDependencyCheck',
               // ArrowFunctionExpression
               if (arg.body.type !== 'CallExpression') {
                 context.report({
-                  node: node,
+                  node: errorNode,
                   messageId: 'effectDependencyCheck',
                 })
                 return;
@@ -84,7 +86,7 @@ export const effectDependencyCheck: TSESLint.RuleModule<'effectDependencyCheck',
                 if (callExpArg.type !== 'CallExpression') {
                   console.log('callExpArg', callExpArg)
                   context.report({
-                    node: node,
+                    node: errorNode,
                     messageId: 'effectDependencyCheck',
                   })
                 }
