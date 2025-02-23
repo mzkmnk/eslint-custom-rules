@@ -7,17 +7,18 @@
     "build": "tsc",
     "test": "jest"
   },
-  "dependencies": {
+  "devDependencies": {
     "@angular-eslint/template-parser": "^19.1.0",
     "@angular-eslint/test-utils": "^19.1.0",
-    "@typescript-eslint/utils": "^8.24.1"
-  },
-  "devDependencies": {
+    "@typescript-eslint/utils": "^8.24.1",
     "@types/jest": "^29.5.14",
     "@typescript-eslint/parser": "^8.24.1",
     "jest": "^29.7.0",
     "ts-jest": "^29.2.5",
     "typescript": "^5.5.3"
+  },
+  "peerDependencies": {
+    "eslint": "^9.21.0"
   },
   "private": true
 }

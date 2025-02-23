@@ -28,7 +28,7 @@ type Scheme = {
  * }
  * ```
  */
-const rule: TSESLint.RuleModule<'effectDependencyCheck', [Scheme]> = {
+export const effectDependencyCheck: TSESLint.RuleModule<'effectDependencyCheck', [Scheme]> = {
   meta: {
     messages: {
       effectDependencyCheck: 'effect should not have a dependency on another effect',
@@ -100,5 +100,3 @@ const rule: TSESLint.RuleModule<'effectDependencyCheck', [Scheme]> = {
     }
   }
 };
-
-export default rule;

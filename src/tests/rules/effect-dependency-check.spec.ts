@@ -1,6 +1,6 @@
 import {RuleTester} from "@angular-eslint/test-utils";
 
-import rule from '@/rules/effect-dependency-check';
+import {effectDependencyCheck as rule} from '@/rules/effect-dependency-check';
 
 const ruleTester = new RuleTester({
   languageOptions: {
