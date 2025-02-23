@@ -1,3 +1,10 @@
+# [1.1.0](https://github.com/mzkmnk/eslint-custom-rules/compare/v1.0.0...v1.1.0) (2025-02-23)
+
+
+### Features
+
+* private flg is false ([#5](https://github.com/mzkmnk/eslint-custom-rules/issues/5)) ([2d4a9fc](https://github.com/mzkmnk/eslint-custom-rules/commit/2d4a9fc7fe6ad78892b2533e4facd478495056f3))
+
 # 1.0.0 (2025-02-23)
 
 
