@@ -1,3 +1,10 @@
+# [1.3.0](https://github.com/mzkmnk/eslint-custom-rules/compare/v1.2.0...v1.3.0) (2025-02-23)
+
+
+### Features
+
+* rename rule ([#8](https://github.com/mzkmnk/eslint-custom-rules/issues/8)) ([e27e15b](https://github.com/mzkmnk/eslint-custom-rules/commit/e27e15bed9207c8fc2889f0247a5a142046bb841))
+
 # [1.2.0](https://github.com/mzkmnk/eslint-custom-rules/compare/v1.1.0...v1.2.0) (2025-02-23)
 
 
