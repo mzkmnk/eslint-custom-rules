@@ -1,1 +1,1 @@
-console.log('Happy developing ✨')
+export {effectDependencyCheck} from './rules/effect-dependency-check';
