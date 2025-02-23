@@ -1,3 +1,10 @@
+# [1.4.0](https://github.com/mzkmnk/eslint-custom-rules/compare/v1.3.0...v1.4.0) (2025-02-23)
+
+
+### Features
+
+* README.md ([#9](https://github.com/mzkmnk/eslint-custom-rules/issues/9)) ([83b3770](https://github.com/mzkmnk/eslint-custom-rules/commit/83b37708ae0b38ee0e6022e0e2ce1e72d95503ec))
+
 # [1.3.0](https://github.com/mzkmnk/eslint-custom-rules/compare/v1.2.0...v1.3.0) (2025-02-23)
 
 
